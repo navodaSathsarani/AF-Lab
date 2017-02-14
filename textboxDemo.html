@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function myfunction() {
+
+
+            var x = document.getElementById("fname").value;
+            document.getElementById("show").innerHTML=x;
+
+        }
+</script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title> dynamic textbox</title>
+</head>
+<body>
+<form>
+
+
+    Enter your name: <input type="text" id="fname" onkeyup="myfunction()" class="">
+    <div id="show">
+
+    </div>
+
+
+</form>
+
+</body>
+</html>
